@@ -16,11 +16,6 @@ import DirectorsDialog from '../DirectorsDialog/DirectorsDialog';
 
 import withHocs from './DirectorsTableHoc';
 
-const directors = [
-  { id: 1, name: 'Quentin Tarantino', age: 55, movies: [ { name: 'Movie 1' }, { name: 'Movie 2' } ] },
-  { id: 2, name: 'Guy Ritchie', age: 50, movies: [ { name: 'Movie 1' }, { name: 'Movie 2' } ] }
-];
-
 class DirectorsTable extends React.Component {
   state = {
     anchorEl: null,
@@ -51,7 +46,8 @@ class DirectorsTable extends React.Component {
 
   render() {
     const { anchorEl, openDialog, data: activeElem = {} } = this.state;
-    const { classes } = this.props;
+    const { classes, data = {} } = this.props;
+    const { directors = [] } = data;
 
     return (
       <>
