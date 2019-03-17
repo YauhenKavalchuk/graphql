@@ -6,4 +6,10 @@ import { directorsQuery } from './queries';
 
 import { styles } from './styles';
 
-export default compose(withStyles(styles), graphql(directorsQuery));
+const withGraphQL = graphql(directorsQuery, {
+  options: ({ name = '' }) => ({
+    variables: { name },
+  }),
+});
+
+export default compose(withStyles(styles), withGraphQL);
