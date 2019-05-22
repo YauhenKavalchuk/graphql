@@ -18,6 +18,10 @@
 ## Полезные ссылки:
 - [Graphql (Документация)](https://graphql.org/learn/)
 
+## Установка зависимостей:
+- Для сервера: `npm i express nodemon graphql express-graphql mongoose cors --save`
+- Для приложения (UI): `yarn add apollo-boost react-apollo graphql @material-ui/core @material-ui/icons react-swipeable-views recompose`
+
 ## Быстрый старт серверной части (уроки с 1 по 9):
 - Клонируйте репозиторий: `git clone https://github.com/YauhenKavalchuk/graphql-tutorial.git`
 - Перейдите в папку **server** и установите зависимости: `npm install`
