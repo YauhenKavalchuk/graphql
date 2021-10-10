@@ -8,27 +8,35 @@
 - Облегчает агрегацию данных из нескольких источников.
 - Использует систему типов для описания данных.
 
-## Используемые ресурсы и инструменты:
+### Поддержать развитие канала:
+[<img alt="webDev | YouTube Sponsor" src="https://img.shields.io/badge/Become a sponsor-F70000.svg?&style=for-the-badge&logo=youtube&logoColor=fff" />][sponsor]
+[<img alt="webDev | Patreon" src="https://img.shields.io/badge/Become a patron-EF6451.svg?&style=for-the-badge&logo=patreon&logoColor=fff" />][patron]
+
+---
+
+### Используемые ресурсы и инструменты:
 - [Atom (Редактор кода)](https://atom.io/)
 - [Create React App (Рабочее окружение)](https://github.com/facebook/create-react-app)
 - [mLab (База данных)](https://mlab.com)
 - [Material-UI (Интерфейс приложения)](https://material-ui.com)
 - [Apollo Client](https://www.apollographql.com/docs/react/)
 
-## Полезные ссылки:
+### Полезные ссылки:
 - [Graphql (Документация)](https://graphql.org/learn/)
 
-## Установка зависимостей:
+---
+
+### Установка зависимостей:
 - Для сервера: `npm i express nodemon graphql express-graphql mongoose cors --save`
 - Для приложения (UI): `yarn add apollo-boost react-apollo graphql @material-ui/core @material-ui/icons react-swipeable-views recompose`
 
-## Быстрый старт серверной части (уроки с 1 по 9):
+### Быстрый старт серверной части (уроки с 1 по 9):
 - Клонируйте репозиторий: `git clone https://github.com/YauhenKavalchuk/graphql-tutorial.git`
 - Перейдите в папку **server** и установите зависимости: `npm install`
 - Перейдите в нужную ветку соответствующую уроку: `git checkout lesson_01` или `git lesson_02` и т.д.
 - Запустите проект: `npm run dev`
 
-## Быстрый старт приложения (уроки с 10 по 16):
+### Быстрый старт приложения (уроки с 10 по 16):
 - Клонируйте репозиторий: `git clone https://github.com/YauhenKavalchuk/graphql-tutorial.git`
 -  Перейдите в нужную ветку соответствующую уроку: `git checkout lesson_10` или `git lesson_11` и т.д.
 - Перейдите в папку **server** и установите зависимости: `npm install`
@@ -36,7 +44,9 @@
 - Перейдите в папку **application** и установите зависимости: `yarn install`
 	- Запустите проект: `yarn start`
 
-## Список уроков:
+---
+
+### Список уроков:
 - [#0 Введение (Introduction)](https://youtu.be/kZs7CXrtT-s)
 - [#1 Установка окружения (Setup Environment)](https://youtu.be/5h7-LVDoR6s)
 - [#2 Схема и корневой запрос (GraphQL Schema & Root Query)](https://youtu.be/L9F_UWf14Ls)
@@ -55,22 +65,19 @@
 - [#15 Редактирование элементов в БД (Edit Elements in DB)](https://youtu.be/UqPPvKOgvbM)
 - [#16 Поиск элементов в БД (Search Elements in DB)](https://youtu.be/vK7AIcl9h6k)
 
-## Автор курса в социальных сетях:
+---
 
-[<img align="left" alt="webDev | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
-[<img align="left" alt="webDev | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
-[<img align="left" alt="webDev | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="webDev | VK" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/vk.svg" />][vk]
-[<img align="left" alt="webDev | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]&nbsp;
-
-## Поддержать канал:
-
-<a href="https://www.patreon.com/YauhenKavalchuk" target="_blank">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
+### Связаться со мной:
+[<img alt="webDev | YouTube" src="https://img.shields.io/badge/youtube-FF0000.svg?&style=for-the-badge&logo=Instagram&logoColor=white" />][youtube]
+[<img alt="webDev | Instagram" src="https://img.shields.io/badge/instagram-E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white" />][instagram]
+[<img alt="webDev | LinkedIn" src="https://img.shields.io/badge/linkedin-0077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />][linkedin]
+[<img alt="webDev | Twitter" src="https://img.shields.io/badge/twitter-1DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white" />][twitter]
+[<img alt="webDev | VK" src="https://img.shields.io/badge/vk-4680C2.svg?&style=for-the-badge&logo=Twitter&logoColor=white" />][vk]
 
 [youtube]: https://youtube.com/YauhenKavalchuk
 [instagram]: https://instagram.com/YauhenKavalchuk
 [linkedin]: https://linkedin.com/in/YauhenKavalchuk
 [vk]: https://vk.com/YauhenKavalchuk
 [twitter]: https://twitter.com/YauhenKavalchuk
+[sponsor]: https://www.youtube.com/channel/UCE9ODjNIkOHrnSdkYWLfYhg/join
+[patron]: https://www.patreon.com/YauhenKavalchuk
