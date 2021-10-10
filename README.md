@@ -31,13 +31,13 @@
 - Для приложения (UI): `yarn add apollo-boost react-apollo graphql @material-ui/core @material-ui/icons react-swipeable-views recompose`
 
 ### Быстрый старт серверной части (уроки с 1 по 9):
-- Клонируйте репозиторий: `git clone https://github.com/YauhenKavalchuk/graphql-tutorial.git`
+- Клонируйте репозиторий: `git clone https://github.com/YauhenKavalchuk/graphql.git`
 - Перейдите в папку **server** и установите зависимости: `npm install`
 - Перейдите в нужную ветку соответствующую уроку: `git checkout lesson_01` или `git lesson_02` и т.д.
 - Запустите проект: `npm run dev`
 
 ### Быстрый старт приложения (уроки с 10 по 16):
-- Клонируйте репозиторий: `git clone https://github.com/YauhenKavalchuk/graphql-tutorial.git`
+- Клонируйте репозиторий: `git clone https://github.com/YauhenKavalchuk/graphql.git`
 -  Перейдите в нужную ветку соответствующую уроку: `git checkout lesson_10` или `git lesson_11` и т.д.
 - Перейдите в папку **server** и установите зависимости: `npm install`
 	- Запустите сервер: `npm run dev`
