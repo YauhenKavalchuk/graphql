@@ -2,6 +2,7 @@ export const styles = theme => ({
   search: {
     position: 'relative',
     width: '100%',
+    marginBottom: theme.spacing.unit * 3,
   },
   searchIcon: {
     width: theme.spacing.unit * 9,
